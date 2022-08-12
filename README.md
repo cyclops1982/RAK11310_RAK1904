@@ -7,3 +7,8 @@ It demonstrates how to set an interrupt and how to handle it in a function.
 The RP2040 does not support deep sleep, so the delay() in the loop is currently the best we can do.
 
 I'm unable to use `Serial.print` in the interrupt function. Don't know why :)
+
+
+## Submodule
+
+There's a submodule used for the library, as i couldnt' get it to compile and wasn't interested in SPI stuff.
